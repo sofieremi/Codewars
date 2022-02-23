@@ -13,3 +13,6 @@ def reverse_words(text: str) -> str:
             memory += word[::-1]
 
     return memory
+
+
+print(reverse_words('ab  ac'))

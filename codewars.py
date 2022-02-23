@@ -219,12 +219,12 @@
 # print(movie(2500, 20, 0.9))
 
 
-# n = 0
-# sentence = input('enter a sentence')
-# vowels = ['a', 'e', 'i', 'o', 'u']
-# for i in range(len(vowels)):
-#     n += sentence.count(vowels[i])
-# print(n)
+n = 0
+sentence = input('enter a sentence')
+vowels = ['a', 'e', 'i', 'o', 'u']
+for i in range(len(vowels)):
+    n += sentence.count(vowels[i])
+print(n)
 
 
 # s = input('enter a word')
