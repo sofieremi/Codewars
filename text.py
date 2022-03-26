@@ -10,21 +10,21 @@ a = 'On the other hand, we denounce with righteous indignation and dislike ' \
     'occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always' \
     ' holds in these matters to this principle of selection: he rejects pleasures to secure' \
     ' other greater pleasures, or else he endures pains to avoid worse pains.'
-# b = a
-# a = a.split()
-# a = set(a)
-# max_len = 0
-# word = ''
-# for i in a:
-#     if len(i) > max_len:
-#         max_len = len(i)
-#         word = i
-# print(word)
-# c = {i: b.count(i) for i in a}
-# vv = 0
-# k_max = ''
-# for k, v in c.items():
-#     if vv < v:
-#         vv = v
-#         k_max = k
-# print(vv, k_max)
+b = a
+a = a.split()
+a = set(a)
+max_len = 0
+word = ''
+for i in a:
+    if len(i) > max_len:
+        max_len = len(i)
+        word = i
+print(word)
+c = {i: b.count(i) for i in a}
+vv = 0
+k_max = ''
+for k, v in c.items():
+    if vv < v:
+        vv = v
+        k_max = k
+print(vv, k_max)
